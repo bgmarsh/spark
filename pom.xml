@@ -590,12 +590,7 @@
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-all</artifactId>
-        <version>4.1.17.Final</version>
-      </dependency>
-      <dependency>
-        <groupId>io.netty</groupId>
-        <artifactId>netty</artifactId>
-        <version>3.9.9.Final</version>
+        <version>4.1.42.Final</version>
       </dependency>
       <dependency>
         <groupId>org.apache.derby</groupId>
@@ -882,6 +877,10 @@
           </exclusion>
           <exclusion>
             <groupId>org.jboss.netty</groupId>
+            <artifactId>netty</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>io.netty</groupId>
             <artifactId>netty</artifactId>
           </exclusion>
           <exclusion>
@@ -1220,6 +1219,10 @@
           <exclusion>
             <groupId>jline</groupId>
             <artifactId>jline</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>io.netty</groupId>
+            <artifactId>netty</artifactId>
           </exclusion>
            <exclusion>
             <groupId>com.github.spotbugs</groupId>
